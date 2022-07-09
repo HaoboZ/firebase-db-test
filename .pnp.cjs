@@ -45,8 +45,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:12.2.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:18.2.0"],\
-            ["react-firebase-hooks", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:5.0.3"],\
-            ["react-firebaseui", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:6.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -2235,8 +2233,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:12.2.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:18.2.0"],\
-            ["react-firebase-hooks", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:5.0.3"],\
-            ["react-firebaseui", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:6.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -2343,15 +2339,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["define-properties", "npm:1.1.3"],\
             ["object-keys", "npm:1.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["dialog-polyfill", [\
-        ["npm:0.4.10", {\
-          "packageLocation": "./.yarn/cache/dialog-polyfill-npm-0.4.10-bd12634f12-f5f472542a.zip/node_modules/dialog-polyfill/",\
-          "packageDependencies": [\
-            ["dialog-polyfill", "npm:0.4.10"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3011,30 +2998,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["firebaseui", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/firebaseui-npm-6.0.0-26f567c563-236a2aa9b3.zip/node_modules/firebaseui/",\
-          "packageDependencies": [\
-            ["firebaseui", "npm:6.0.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:17c6d1fe46f0861bb9cf490a76dd2adfd772c07f2371ac968377e0982bd082e016b4e29b3957a598f0c6c3657467b490ad72e55d9cd96427c4816dd64f0aa8e9#npm:6.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/firebaseui-virtual-3429ef597c/0/cache/firebaseui-npm-6.0.0-26f567c563-236a2aa9b3.zip/node_modules/firebaseui/",\
-          "packageDependencies": [\
-            ["firebaseui", "virtual:17c6d1fe46f0861bb9cf490a76dd2adfd772c07f2371ac968377e0982bd082e016b4e29b3957a598f0c6c3657467b490ad72e55d9cd96427c4816dd64f0aa8e9#npm:6.0.0"],\
-            ["@types/firebase", null],\
-            ["dialog-polyfill", "npm:0.4.10"],\
-            ["firebase", "npm:9.9.0"],\
-            ["material-design-lite", "npm:1.3.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/firebase",\
-            "firebase"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["flat-cache", [\
         ["npm:3.0.4", {\
           "packageLocation": "./.yarn/cache/flat-cache-npm-3.0.4-ee77e5911e-4fdd10ecbc.zip/node_modules/flat-cache/",\
@@ -3663,15 +3626,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["material-design-lite", [\
-        ["npm:1.3.0", {\
-          "packageLocation": "./.yarn/cache/material-design-lite-npm-1.3.0-67115c6554-f5d45f8440.zip/node_modules/material-design-lite/",\
-          "packageDependencies": [\
-            ["material-design-lite", "npm:1.3.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["merge2", [\
         ["npm:1.4.1", {\
           "packageLocation": "./.yarn/cache/merge2-npm-1.4.1-a2507bd06c-7268db63ed.zip/node_modules/merge2/",\
@@ -4190,59 +4144,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["react-firebase-hooks", [\
-        ["npm:5.0.3", {\
-          "packageLocation": "./.yarn/cache/react-firebase-hooks-npm-5.0.3-ca50207645-80e704f183.zip/node_modules/react-firebase-hooks/",\
-          "packageDependencies": [\
-            ["react-firebase-hooks", "npm:5.0.3"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:5.0.3", {\
-          "packageLocation": "./.yarn/__virtual__/react-firebase-hooks-virtual-c591810223/0/cache/react-firebase-hooks-npm-5.0.3-ca50207645-80e704f183.zip/node_modules/react-firebase-hooks/",\
-          "packageDependencies": [\
-            ["react-firebase-hooks", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:5.0.3"],\
-            ["@types/firebase", null],\
-            ["@types/react", "npm:18.0.15"],\
-            ["firebase", "npm:9.9.0"],\
-            ["react", "npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/firebase",\
-            "@types/react",\
-            "firebase",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["react-firebaseui", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/react-firebaseui-npm-6.0.0-09b69c9f2a-05c58ddbe7.zip/node_modules/react-firebaseui/",\
-          "packageDependencies": [\
-            ["react-firebaseui", "npm:6.0.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:6.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-firebaseui-virtual-17c6d1fe46/0/cache/react-firebaseui-npm-6.0.0-09b69c9f2a-05c58ddbe7.zip/node_modules/react-firebaseui/",\
-          "packageDependencies": [\
-            ["react-firebaseui", "virtual:bc00b3f000399a0613ccc94903b8d49d3f8e6bdf5ff7836fc1d3fa2af62c5d7fd180d39663dd66770868830cd1c24fc1292521b8f17efb2a82db0fac4b47cace#npm:6.0.0"],\
-            ["@types/firebase", null],\
-            ["@types/react", "npm:18.0.15"],\
-            ["firebase", "npm:9.9.0"],\
-            ["firebaseui", "virtual:17c6d1fe46f0861bb9cf490a76dd2adfd772c07f2371ac968377e0982bd082e016b4e29b3957a598f0c6c3657467b490ad72e55d9cd96427c4816dd64f0aa8e9#npm:6.0.0"],\
-            ["react", "npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/firebase",\
-            "@types/react",\
-            "firebase",\
             "react"\
           ],\
           "linkType": "HARD"\
